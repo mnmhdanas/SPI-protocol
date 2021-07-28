@@ -1,4 +1,4 @@
-module spimaster(clk,rst,start,MODE,clkdiv,DatatoTransmit,finish,
+module spi_master(clk,rst,start,MODE,clkdiv,DatatoTransmit,finish,
                   DataReceived,MISO,Sclk,MOSI,SS);
   
   input clk,rst,start;
